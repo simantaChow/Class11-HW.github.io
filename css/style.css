@@ -1,0 +1,237 @@
+/* Common Css Start */
+:root {
+  --theamBackgroudColor: #0f2f44;
+  --headingFont: "Abril Fatface", cursive;
+  --secondHedingFont: "Ubuntu", sans-serif;
+  --commonFont: "Open Sans", sans-serif;
+  --whiteColor: #d4d7d9;
+  --blackText: #222222;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+}
+h1,
+h2 {
+}
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  width: 1176px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Common Css End */
+
+/* topbar css start*/
+#topbar {
+  background-color: var(--theamBackgroudColor);
+  height: 51px;
+}
+#topbar .row {
+  justify-content: space-between;
+}
+
+#topbar .row p {
+  color: var(--whiteColor);
+  font-family: var(--secondHedingFont);
+  font-size: 16px;
+  font-weight: 400px;
+  margin-top: 18px;
+}
+/* topbar css end*/
+
+/* navbar css start*/
+
+#navbar .row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar ul li a {
+  color: var(--blackText);
+  font-family: var(--secondHedingFont);
+  font-weight: bold;
+  padding: 43px 20px;
+  transition: 0.6s;
+}
+
+#navbar button {
+  height: 30px;
+  width: 30px;
+  border: #999999 solid 1px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 10px;
+  transition: 0.6s;
+  background: #ffff;
+}
+
+#navbar ul li:hover a,
+#navbar button:hover,
+#banner button:nth-last-child(1):hover,
+#banner button:hover {
+  background-color: #fff9e6;
+  color: #ffc712;
+}
+
+/* navbar css end*/
+
+/* banner css start*/
+#banner {
+  background: url(../img/background_1.jpg);
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+}
+
+#banner .row,
+h1,
+h2,
+h3 {
+  display: block;
+  line-height: 0;
+}
+
+#banner .row h2 {
+  font-family: var(--secondHedingFont);
+  font-size: 50px;
+  color: var(--theamBackgroudColor);
+  font-weight: 400;
+  padding-top: 147px;
+}
+#banner .row h1 {
+  font-family: var(--headingFont);
+  font-size: 80px;
+  color: var(--theamBackgroudColor);
+  font-weight: 400;
+  padding-top: 55px;
+}
+
+#banner .row h3 {
+  font-family: var(--secondHedingFont);
+  font-size: 32px;
+  color: #8484bf;
+  font-weight: 400;
+  letter-spacing: 8px;
+  padding-top: 10px;
+  padding-top: 60px;
+}
+#banner p {
+  width: 465px;
+  padding-top: 35px;
+  line-height: 20px;
+  color: #444444;
+  font-family: var(--commonFont);
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 33px;
+}
+
+#banner button {
+  background-color: #8484bf;
+  color: #ffff;
+  border-radius: 6px;
+  height: 49px;
+  width: 164px;
+  border: none;
+  font-family: var(--secondHedingFont);
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+#banner button:nth-last-child(1) {
+  height: 50px;
+  width: 50px;
+  background-color: #ffff;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  color: #8484bf;
+  margin-left: 10px;
+  padding: 0 20px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+/* banner css end*/
+
+/* about_us css start*/
+#about_us {
+  height: 1290px;
+  padding-top: 101px;
+}
+
+#about_us .about1,
+.about2,
+.about3,
+.about4 {
+  width: 50%;
+}
+
+#about_us .about1 p {
+  font-family: var(--secondHedingFont);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--theamBackgroudColor);
+}
+
+#about_us .about1 h3 {
+  font-family: var(--headingFont);
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--theamBackgroudColor);
+  padding-top: 25px;
+}
+
+#about_us .about1 p:nth-child(3) {
+  font-family: var(--secondHedingFont);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--theamBackgroudColor);
+  width: 571px;
+  padding-top: 35px;
+  line-height: 25px;
+}
+
+#about_us .about1 p:nth-child(4) {
+  font-family: var(--secondHedingFont);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--theamBackgroudColor);
+  width: 571px;
+  padding-top: 35px;
+  line-height: 35px;
+  padding-left: 30px;
+}
+
+/* about_us css end*/
