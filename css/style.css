@@ -234,4 +234,25 @@ h3 {
   padding-left: 30px;
 }
 
+#about_us .about1 button {
+  width: 142px;
+  height: 46px;
+  font-family: var(--secondHedingFont);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--theamBackgroudColor);
+  background-color: #ffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 3px 5px 13px #888888;
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: .5s;
+}
+
+#about_us .about1 button:hover{
+  background-color: #ffc712;
+}
+
 /* about_us css end*/
