@@ -198,14 +198,16 @@ h3 {
   width: 50%;
 }
 
-#about_us .about1 p {
+#about_us .about1 p,
+.about4 p {
   font-family: var(--secondHedingFont);
   font-size: 14px;
   font-weight: 400;
   color: var(--theamBackgroudColor);
 }
 
-#about_us .about1 h3 {
+#about_us .about1 h3,
+.about4 h3 {
   font-family: var(--headingFont);
   font-size: 32px;
   font-weight: 400;
@@ -213,12 +215,12 @@ h3 {
   padding-top: 25px;
 }
 
-#about_us .about1 p:nth-child(3) {
+#about_us .about1 p:nth-child(3),
+.about4 p:nth-child(3) {
   font-family: var(--secondHedingFont);
   font-size: 16px;
   font-weight: 400;
   color: var(--theamBackgroudColor);
-  width: 571px;
   padding-top: 35px;
   line-height: 25px;
 }
@@ -253,6 +255,14 @@ h3 {
 
 #about_us .about1 button:hover{
   background-color: #ffc712;
+}
+
+#about_us .about4{
+  text-align: right;
+}
+
+#about_us .about3 img{
+  margin-left: -127px;
 }
 
 /* about_us css end*/
