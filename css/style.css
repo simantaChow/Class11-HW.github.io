@@ -661,10 +661,22 @@ h3 {
   transition: all 0.06s ease 0s;
 }
 
-#our_latest_blogs .row .our_latest_blogs_img:hover {
+#our_latest_blogs .row .our_latest_blogs_img:hover{
   background-color: rgb(15, 47, 68);
   color: white;
   cursor: pointer;
+}
+
+#our_latest_blogs .row .our_latest_blogs_img:hover p {
+  color: rgb(255, 255, 255);
+}
+
+#our_latest_blogs .row .our_latest_blogs_img:hover h4 {
+  color: rgb(255, 255, 255);
+}
+
+#our_latest_blogs .row .our_latest_blogs_img:hover a {
+  color: rgb(255, 255, 255);
 }
 
 #our_latest_blogs .row .our_latest_blogs_img_title:hover p {
