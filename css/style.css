@@ -350,8 +350,7 @@ h3 {
 
 #our_service .our_service_heading p,
 .portfolio_heading p,
-.our_latest_blogs_heading p
-{
+.our_latest_blogs_heading p {
   padding-top: 64px;
   font-size: 14px;
   color: var(--theamBackgroudColor);
@@ -482,11 +481,11 @@ h3 {
   z-index: 1;
 }
 
-#our_portfolio .pic{
+#our_portfolio .pic {
   position: relative;
 }
 
-#our_portfolio .pic .overlay{
+#our_portfolio .pic .overlay {
   background-color: #ffff;
   position: absolute;
   z-index: 2;
@@ -497,12 +496,12 @@ h3 {
   transition: 1s;
 }
 
-#our_portfolio .pic:hover .overlay{
+#our_portfolio .pic:hover .overlay {
   transform: scaleY(1);
-  transition: .6s;
+  transition: 0.6s;
 }
 
-#our_portfolio .pic .overlay h3{
+#our_portfolio .pic .overlay h3 {
   font-family: var(--secondHedingFont);
   color: var(--theamBackgroudColor);
   font-weight: 600;
@@ -512,15 +511,14 @@ h3 {
   padding-top: 30px;
 }
 
-
 #our_portfolio .container .browes_all,
-#our_latest_blogs .container .browes_all{
+#our_latest_blogs .container .browes_all {
   padding-top: 60px;
   text-align: center;
 }
 
 #our_portfolio .container .browes_all a,
-#our_latest_blogs .container .browes_all a{
+#our_latest_blogs .container .browes_all a {
   display: inline-block;
   margin: auto;
   color: var(--theamBackgroudColor);
@@ -529,32 +527,32 @@ h3 {
   text-align: center;
   padding: 15px 20px;
   border-radius: 5px;
-  background-color:#ffc712 ;
+  background-color: #ffc712;
   transition: 0.5s;
   font-family: var(--secondHedingFont);
 }
 /* our services css end*/
 
 /* our_testimonial section css start*/
-#our_testimonial{
+#our_testimonial {
   width: 100%;
   height: 444px;
   background-color: #f5f5f5;
 }
-#our_testimonial .our_testimonial_heading{
+#our_testimonial .our_testimonial_heading {
   display: block;
   margin: auto;
   text-align: center;
 }
 
-#our_testimonial .our_testimonial_heading p{
+#our_testimonial .our_testimonial_heading p {
   padding-top: 64px;
   font-size: 14px;
   color: var(--theamBackgroudColor);
   font-family: var(--secondHedingFont);
 }
 
-#our_testimonial .our_testimonial_heading h3{
+#our_testimonial .our_testimonial_heading h3 {
   font-family: var(--headingFont);
   font-size: 32px;
   font-weight: 400;
@@ -562,11 +560,11 @@ h3 {
   padding-top: 20px;
 }
 
-#our_testimonial .row{
+#our_testimonial .row {
   justify-content: space-between;
 }
 
-#our_testimonial .customers_reviews{
+#our_testimonial .customers_reviews {
   width: 571px;
   height: 215px;
   background-color: #e9e9e9;
@@ -575,37 +573,27 @@ h3 {
   border-radius: 6px;
 }
 
-#our_testimonial
-.customers_reviews
-.customers_reviews_image{
+#our_testimonial .customers_reviews .customers_reviews_image {
   width: 15%;
 }
 
-#our_testimonial
-.customers_reviews
-.customers_reviews_image img{
+#our_testimonial .customers_reviews .customers_reviews_image img {
   display: block;
 }
 
-#our_testimonial
-.customers_reviews
-.comments{
+#our_testimonial .customers_reviews .comments {
   width: 57%;
   margin-top: 48px;
 }
 
-#our_testimonial
-.customers_reviews
-.comments p{
+#our_testimonial .customers_reviews .comments p {
   font-family: var(--commonFont);
   font-size: 14px;
   font-weight: 400;
   color: var(--theamBackgroudColor);
 }
 
-#our_testimonial
-.customers_reviews
-.comments h3{
+#our_testimonial .customers_reviews .comments h3 {
   font-family: var(--secondHedingFont);
   font-size: 20px;
   font-weight: 600;
@@ -613,9 +601,7 @@ h3 {
   margin-top: 20px;
 }
 
-#our_testimonial
-.customers_reviews
-.comments p:nth-child(3){
+#our_testimonial .customers_reviews .comments p:nth-child(3) {
   font-family: var(--commonFont);
   font-size: 18px;
   font-weight: 400;
@@ -625,17 +611,16 @@ h3 {
 /* our_testimonial section css start*/
 
 /* our_latest_blogs section css start*/
-#our_latest_blogs{
+#our_latest_blogs {
   width: 100%;
   height: 904px;
 }
 
-#our_latest_blogs .row{
+#our_latest_blogs .row {
   justify-content: space-between;
 }
 
-#our_latest_blogs .row
-.our_latest_blogs_img{
+#our_latest_blogs .row .our_latest_blogs_img {
   width: 352px;
   height: 478px;
   background-color: #f5f5f5;
@@ -645,97 +630,139 @@ h3 {
   cursor: pointer;
 }
 
-#our_latest_blogs .row .our_latest_blogs_img:hover{
-  background-color: #0f2f44;
-  color: white;
-  cursor: pointer;
-}
-
-#our_latest_blogs .row .our_latest_blogs_img:nth-child(2) hover{
-  background-color: #0f2f44;
-  color: white;
-  cursor: pointer;
-}
-
-#our_latest_blogs .row
-.our_latest_blogs_img_title:hover p{
- color: #ffff;
-}
-
-#our_latest_blogs .row
-.our_latest_blogs_img_title:hover h4{
- color: #ffff;
-}
-
-#our_latest_blogs .row
-.our_latest_blogs_img_title:hover a{
- color: #ffff;
-}
-
-#our_latest_blogs .our_latest_blogs_img img{
+#our_latest_blogs .our_latest_blogs_img img {
   display: block;
   margin: auto;
   width: 311px;
   margin-top: 20px;
 }
 
-
-
-#our_latest_blogs
-.our_latest_blogs_img
-.our_latest_blogs_img_title{
+#our_latest_blogs .our_latest_blogs_img .our_latest_blogs_img_title {
   padding: 22px;
   text-align: left;
 }
 
-#our_latest_blogs
-.our_latest_blogs_img
-.our_latest_blogs_img_title p{
+#our_latest_blogs .our_latest_blogs_img .our_latest_blogs_img_title p {
   color: #777777;
   font-family: var(--secondHedingFont);
   font-size: 14px;
   font-weight: 400;
-  transition: .06s;
+  transition: 0.06s;
 }
 
-#our_latest_blogs
-.our_latest_blogs_img
-.our_latest_blogs_img_title h4{
+#our_latest_blogs .our_latest_blogs_img .our_latest_blogs_img_title h4 {
   color: #222222;
   font-family: var(--secondHedingFont);
   font-size: 20px;
   font-weight: 500;
   margin-top: 10px;
-  transition: .06s;
+  transition: 0.06s;
 }
 
-#our_latest_blogs
-.our_latest_blogs_img
-.our_latest_blogs_img_title a{
+#our_latest_blogs .our_latest_blogs_img .our_latest_blogs_img_title a {
   margin-top: 10px;
   font-family: var(--secondHedingFont);
   font-size: 16px;
   color: #222222;
-  transition: .06s;
+  transition: 0.06s;
 }
 
-#our_latest_blogs
-.our_latest_blogs_img
-.our_latest_blogs_img_title a i{
-  padding: 6px 0 0 5px ;
-  transition: .06s;
+#our_latest_blogs .our_latest_blogs_img .our_latest_blogs_img_title a i {
+  padding: 6px 0 0 5px;
+  transition: 0.06s;
 }
+
+#our_latest_blogs .row .our_latest_blogs_img:hover {
+  background-color: #0f2f44;
+  color: white;
+  cursor: pointer;
+}
+
+#our_latest_blogs .row .our_latest_blogs_img_title:hover p {
+  color: #ffff;
+}
+
+#our_latest_blogs .row .our_latest_blogs_img_title:hover h4 {
+  color: #ffff;
+}
+
+#our_latest_blogs .row .our_latest_blogs_img_title:hover a {
+  color: #ffff;
+}
+
 
 /* our_latest_blogs section css start*/
 
 /* footer css start*/
- #footer{
-  background-color:#f5f5f5 ;
+#footer {
+  background-color: #f5f5f5;
   width: 100%;
   height: 400px;
-  -webkit-box-shadow: 0px 5px 52px 12px rgba(217,217,217,1);
--moz-box-shadow: 0px 5px 52px 12px rgba(217,217,217,1);
-box-shadow: 0px 5px 52px 12px rgba(217,217,217,1);
-  
- }
+  -webkit-box-shadow: 0px 5px 52px 12px rgba(217, 217, 217, 1);
+  -moz-box-shadow: 0px 5px 52px 12px rgba(217, 217, 217, 1);
+  box-shadow: 0px 5px 52px 12px rgba(217, 217, 217, 1);
+}
+
+#footer .social_icon{
+  height: 300px;
+  width: 254px;
+}
+
+#footer .social_icon img{
+  margin-top: 50px;
+}
+
+#footer .social_icon p{
+  font-size: 16px;
+  font-family: var(--commonFont);
+  font-weight: 400;
+  text-align: justify;
+  color: #777777;
+  margin-top: 20px;
+}
+
+#footer ul li a{
+  width: 40px;
+  height: 40px;
+  border: var(--theamBackgroudColor) solid 2px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-right: 7px;
+  transition: .8s;
+  color: #0f2f44;
+  font-size: 18px;
+}
+
+#footer ul li:hover a{
+  background-color:#0f2f44;
+  color: #ffffff;
+}
+
+#footer .contact_us{
+  width: 300px;
+  height: 226px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#footer .contact_us h4{
+  color: #0f2f44;
+  font-family: var(--secondHedingFont);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#footer .contact_us p, i{
+  font-size: 20px;
+  font-family: var(--commonFont);
+  font-weight: 400;
+  display: inline;
+}
+
+
+
+
+
 /* footer css end*/
